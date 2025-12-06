@@ -1,0 +1,100 @@
+/* Section */
+.skills-section {
+  padding: 60px 20px;
+  text-align: center;
+  color: #dce3f1;
+}
+
+/* Title */
+.skills-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.skills-title span {
+  background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skills-subtitle {
+  font-size: 1rem;
+  opacity: 0.8;
+  margin-bottom: 40px;
+}
+
+/* === GRID LAYOUT (2 CARDS IN A ROW) === */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);  
+  gap: 28px;
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* === CARD STYLE === */
+.skill-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 28px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.45);
+  transition: all 0.3s ease;
+}
+
+/* Hover Glow */
+.skill-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 12px 35px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Category Title */
+.skill-category {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  letter-spacing: 0.4px;
+}
+
+/* Colored Titles */
+.skill-category.blue { color: #DF8908 }
+.skill-category.purple { color: #c792ea; }
+.skill-category.green { color: #B415FF; }
+.skill-category.orange { color: #ffb86c; }
+
+/* Tags / Skills */
+.skill-items {
+  margin-top: 8px;
+}
+
+.skill-items span {
+  display: inline-block;
+  padding: 7px 14px;
+  margin: 6px 6px 0 0;
+  border-radius: 10px;
+
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  font-size: 0.9rem;
+  color: #d9e2f0;
+
+  transition: background 0.3s;
+}
+
+/* Tag Hover */
+.skill-items span:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;   /* 1 card per row on mobile */
+  }
+}
+

@@ -1,0 +1,159 @@
+/* CSS */
+.experience-education {
+  color: white;
+  padding: 60px 20px;
+}
+
+.experience-education h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.experience-education .highlight {
+  background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.experience-education .subheading {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);  
+  gap: 28px;
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.column {
+  flex: 1;
+  min-width: 300px;
+}
+
+.column h3 {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.column h3 i {
+  margin-right: 10px;
+  color: #7f5af0;
+}
+
+.item {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  
+}
+
+.item h4 {
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.item .company {
+  font-style: italic;
+  color: #c792ea;
+  margin-bottom: 5px;
+}
+
+.item .date {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.item ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #ccc;
+}
+
+
+/* ------- RESPONSIVE ------- */
+
+/* Tablet (max-width: 900px) */
+@media (max-width: 900px) {
+  .container {
+    gap: 20px;
+  }
+
+  .experience-education h2 {
+    font-size: 2rem;
+  }
+
+  .column h3 {
+    font-size: 1.3rem;
+  }
+
+  .item {
+    padding: 18px;
+  }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;   /* stack on top */
+    width: 95%;
+  }
+
+  .experience-education {
+    padding: 40px 15px;
+  }
+
+  .experience-education h2 {
+    font-size: 1.8rem;
+  }
+
+  .subheading {
+    font-size: 14px;
+  }
+
+  .item h4 {
+    font-size: 1.1rem;
+  }
+
+  .item ul {
+    font-size: 0.9rem;
+  }
+}
+
+/* Small Phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .experience-education h2 {
+    font-size: 1.6rem;
+  }
+
+  .column h3 {
+    font-size: 1.2rem;
+  }
+
+  .item {
+    padding: 15px;
+  }
+
+  .item h4 {
+    font-size: 1rem;
+  }
+
+  .item ul {
+    font-size: 0.8rem;
+  }
+}
