@@ -17,7 +17,7 @@ const Footer = () => {
   </div>
 
   <div className="footer-bottom">
-    © 2025 Aswin E N — All rights reserved.
+    © 2026 Aswin E N — All rights reserved.
   </div>
 </footer>
   )

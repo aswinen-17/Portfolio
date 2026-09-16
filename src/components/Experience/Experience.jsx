@@ -12,12 +12,12 @@ const Experience = () => {
       <h3><i class="icon-briefcase"></i> Experience</h3>
       <div class="item">
         <h4>Software Development Intern</h4>
-        <p class="company">TechaSoft</p>
-        <p class="date">July 2025 - Sept 2025</p>
+        <p class="company">CodeCraft InfoTech</p>
+        <p class="date">August 2026 - Sept 2026</p>
         <ul>
-          <li>Assisted in developing and maintaining client-facing web applications.</li>
-          <li>Improved UI consistency, optimized responsiveness, and enhanced cross-device compatibility.</li>
-          <li>Performed debugging, manual testing, and documentation of multiple modules.</li>
+          <li>Developed and delivered software projects with a focus on responsive, interactive, and user-friendly interfaces.</li>
+          <li>Implemented functional features including user input handling, validation, dynamic components, and responsive layouts.</li>
+          <li>Managed project development and deployments while maintaining organized and accessible project repositories.</li>
         </ul>
       </div>
     </div>
@@ -28,7 +28,7 @@ const Experience = () => {
         <h4>Master of Computer Applications (MCA)</h4>
         <p class="company">Bangalore University</p>
         <p class="date">2023 - 2025</p>
-        <p>Status: Results Awaited</p>
+        <p>CGPA: 7.4</p>
       </div>
       <div class="item">
         <h4>Bachelor of Computer Applications (BCA)</h4>

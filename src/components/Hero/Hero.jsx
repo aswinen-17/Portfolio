@@ -2,7 +2,7 @@ import React from 'react'
 import './Hero.css'
 import profileimg from '../../assets/profileimg.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import Resume from '../../assets/Resume.pdf'
+import Aswin_E_N_Resume from '../../assets/Aswin_E_N_Resume.pdf'
 
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
       <p>Building scalable, real-world software solutions with modern web technologies and AI integration</p>
       <div className='hero-action'>
         <div className='hero-connect'><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with Me</AnchorLink></div>
-        <a href={Resume} download style={{ textDecoration: "none" }}>
+        <a href={Aswin_E_N_Resume} download style={{ textDecoration: "none" }}>
           <div className='hero-resume'>My Resume</div>
         </a>
       </div>
